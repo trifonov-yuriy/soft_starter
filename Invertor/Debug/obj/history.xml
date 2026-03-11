@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\HMI_Interaction -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\cmsis_boot -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\EngineControl -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\stm_lib\inc -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\GlobalValues -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\IWatchDog -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\Flash -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\cmsis -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\FREERTOS -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\EngineControl\Timer -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\HMI_Interaction\I2C_Slave -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\Clocking -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\stm_lib -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\ParametersControl -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\ValvesControl -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\HMI_Interaction\SensorWork -I..\..\..\..\..\Programming\c\Invertor -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\FREERTOS\portable -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\FREERTOS\include -I..\..\..\..\..\Programming\c\Invertor\MyProgram12softstart\AlarmActions">
+      <target file="stm32f10x_exti.o" lastModified="1905f44b6ec">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="18c9dc8fea5"/>
+      </target>
+      <target file="stm32f10x_iwdg.o" lastModified="1905f44c4fc">
+         <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="18e2ead217d"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1905f44b1d3">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="18c9dc8f9f6"/>
+      </target>
+      <target file="clocking.o" lastModified="1905f44bdfe">
+         <source file="..\..\..\Clocking\clocking.c" lastModified="18cc582a419"/>
+      </target>
+      <target file="misc.o" lastModified="1905f44c16d">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="18c9dc8ce3e"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1905f44b082">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="18c9dc8b171"/>
+      </target>
+      <target file="queue.o" lastModified="1905f44bcf2">
+         <source file="..\..\..\FREERTOS\source\queue.c" lastModified="16aa47de320"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1905f44b972">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="18cac44d3dc"/>
+      </target>
+      <target file="valvesControl.o" lastModified="1905f44c37c">
+         <source file="..\..\..\ValvesControl\valvesControl.c" lastModified="1905d96a047"/>
+      </target>
+      <target file="timers.o" lastModified="1905f44b3b9">
+         <source file="..\..\..\FREERTOS\source\timers.c" lastModified="16aa47de34f"/>
+      </target>
+      <target file="tasks.o" lastModified="1905f44b836">
+         <source file="..\..\..\FREERTOS\source\tasks.c" lastModified="16aa47de33f"/>
+      </target>
+      <target file="alarmActions.o" lastModified="1905f44c488">
+         <source file="..\..\..\AlarmActions\alarmActions.c" lastModified="18d5b882597"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="1905f44bc05">
+         <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="18e6ca27a6e"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="1905f44af1e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="18c9dc8e47a"/>
+      </target>
+      <target file="flash.o" lastModified="1905f44af8a">
+         <source file="..\..\..\Flash\flash.c" lastModified="18e8df0c5c0"/>
+      </target>
+      <target file="event_groups.o" lastModified="1905f44c0f5">
+         <source file="..\..\..\FREERTOS\source\event_groups.c" lastModified="16aa47ddc89"/>
+      </target>
+      <target file="stream_buffer.o" lastModified="1905f44bf5d">
+         <source file="..\..\..\FREERTOS\source\stream_buffer.c" lastModified="16aa47de330"/>
+      </target>
+      <target file="croutine.o" lastModified="1905f44bfd1">
+         <source file="..\..\..\FREERTOS\source\croutine.c" lastModified="16aa47ddc89"/>
+      </target>
+      <target file="stm32f10x_rtc.o" lastModified="1905f44ac06">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="18ca2fc3767"/>
+      </target>
+      <target file="list.o" lastModified="1905f44bb69">
+         <source file="..\..\..\FREERTOS\source\list.c" lastModified="16aa47ddd15"/>
+      </target>
+      <target file="port.o" lastModified="1905f44bd82">
+         <source file="..\..\..\FREERTOS\portable\port.c" lastModified="18efd1b48ab"/>
+      </target>
+      <target file="sensorWork.o" lastModified="1905f44ba53">
+         <source file="..\..\..\HMI_Interaction\SensorWork\sensorWork.c" lastModified="18ef599781d"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1905f44b5f0">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="18c9dc8b167"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="1905f44b0f6">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="18ca2fc377c"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="1905f44b8d6">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="18cd3246d0a"/>
+      </target>
+      <target file="timer.o" lastModified="1905f44b00e">
+         <source file="..\..\..\EngineControl\Timer\timer.c" lastModified="1905ae26dbf"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="1905f44be96">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="18cce3e941d"/>
+      </target>
+      <target file="heap_2.o" lastModified="1905f44c418">
+         <source file="..\..\..\FREERTOS\source\heap_2.c" lastModified="16aa47de1f7"/>
+      </target>
+      <target file="engineControl.o" lastModified="1905f45e1d4">
+         <source file="..\..\..\EngineControl\engineControl.c" lastModified="1905f45d50b"/>
+      </target>
+      <target file="main.o" lastModified="1905f44b291">
+         <source file="..\..\..\main.c" lastModified="1905d75afdd"/>
+      </target>
+      <target file="i2c_slave.o" lastModified="1905f44b678">
+         <source file="..\..\..\HMI_Interaction\I2C_Slave\i2c_slave.c" lastModified="18d970b6ce2"/>
+      </target>
+      <target file="hmi_interaction.o" lastModified="1905f44b548">
+         <source file="..\..\..\HMI_Interaction\hmi_interaction.c" lastModified="1905da6f725"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="1905f44b14e">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="18c9dc8b16e"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="1905f44c20c">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="18d723011c0"/>
+      </target>
+      <target file="parametersControl.o" lastModified="1905f44bade">
+         <source file="..\..\..\ParametersControl\parametersControl.c" lastModified="18cd32c5915"/>
+      </target>
+      <target file="iwatchdog.o" lastModified="1905f44c049">
+         <source file="..\..\..\IWatchDog\iwatchdog.c" lastModified="18e36266d87"/>
+      </target>
+   </processor>
+</history>

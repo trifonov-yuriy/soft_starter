@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Invertor.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Invertor -TC:\CooCox\CoIDE\configuration\ProgramData\Invertor/arm-gcc-link.ld -g">
+      <target file="Invertor.elf" lastModified="1905f45e5d3">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="1905f44ac06"/>
+         <source file="..\obj\engineControl.o" lastModified="1905f45e1d4"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="1905f44af1e"/>
+         <source file="..\obj\flash.o" lastModified="1905f44af8a"/>
+         <source file="..\obj\timer.o" lastModified="1905f44b00e"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1905f44b082"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="1905f44b0f6"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1905f44b14e"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1905f44b1d3"/>
+         <source file="..\obj\main.o" lastModified="1905f44b291"/>
+         <source file="..\obj\timers.o" lastModified="1905f44b3b9"/>
+         <source file="..\obj\hmi_interaction.o" lastModified="1905f44b548"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1905f44b5f0"/>
+         <source file="..\obj\i2c_slave.o" lastModified="1905f44b678"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="1905f44b6ec"/>
+         <source file="..\obj\tasks.o" lastModified="1905f44b836"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="1905f44b8d6"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1905f44b972"/>
+         <source file="..\obj\sensorWork.o" lastModified="1905f44ba53"/>
+         <source file="..\obj\parametersControl.o" lastModified="1905f44bade"/>
+         <source file="..\obj\list.o" lastModified="1905f44bb69"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="1905f44bc05"/>
+         <source file="..\obj\queue.o" lastModified="1905f44bcf2"/>
+         <source file="..\obj\port.o" lastModified="1905f44bd82"/>
+         <source file="..\obj\clocking.o" lastModified="1905f44bdfe"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="1905f44be96"/>
+         <source file="..\obj\stream_buffer.o" lastModified="1905f44bf5d"/>
+         <source file="..\obj\croutine.o" lastModified="1905f44bfd1"/>
+         <source file="..\obj\iwatchdog.o" lastModified="1905f44c049"/>
+         <source file="..\obj\event_groups.o" lastModified="1905f44c0f5"/>
+         <source file="..\obj\misc.o" lastModified="1905f44c16d"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="1905f44c20c"/>
+         <source file="..\obj\valvesControl.o" lastModified="1905f44c37c"/>
+         <source file="..\obj\heap_2.o" lastModified="1905f44c418"/>
+         <source file="..\obj\alarmActions.o" lastModified="1905f44c488"/>
+         <source file="..\obj\stm32f10x_iwdg.o" lastModified="1905f44c4fc"/>
+      </target>
+   </processor>
+</history>
